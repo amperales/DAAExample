@@ -50,7 +50,7 @@ function formToDog() {
 	};
 }
 
-function dogToForm(person) {
+function dogToForm(dog) {
 	var form = $(dogsFormQuery);
 	form.find('input[name="id"]').val(dog.id);
 	form.find('input[name="name"]').val(dog.name);
