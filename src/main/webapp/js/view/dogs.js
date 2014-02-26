@@ -51,7 +51,7 @@ function formToDog() {
 }
 
 function dogToForm(person) {
-	var form = $(peopleFormQuery);
+	var form = $(dogsFormQuery);
 	form.find('input[name="id"]').val(dog.id);
 	form.find('input[name="name"]').val(dog.name);
 	form.find('input[name="breed"]').val(dog.breed);
